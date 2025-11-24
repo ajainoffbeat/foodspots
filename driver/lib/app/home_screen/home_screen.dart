@@ -127,7 +127,7 @@ class HomeScreen extends StatelessWidget {
                                         children: [
                                           flutterMap.TileLayer(
                                             urlTemplate: 'https://tile.openstreetmap.org/{z}/{x}/{y}.png',
-                                            userAgentPackageName: Platform.isAndroid ? 'com.foodspots.customer' : 'com.foodies.driver.ios',
+                                            userAgentPackageName: Platform.isAndroid ? 'com.foodspots.driver' : 'com.foodies.driver.ios',
                                           ),
                                           flutterMap.MarkerLayer(markers: controller.currentOrder.value.id == null ? [] : controller.osmMarkers),
                                           if (controller.routePoints.isNotEmpty && controller.currentOrder.value.id != null)

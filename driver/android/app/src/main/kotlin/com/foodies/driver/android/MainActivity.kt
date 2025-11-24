@@ -1,4 +1,4 @@
-package com.foodspots.customer
+package com.foodspots.driver
 
 import io.flutter.embedding.android.FlutterActivity
 import io.flutter.embedding.android.FlutterFragmentActivity

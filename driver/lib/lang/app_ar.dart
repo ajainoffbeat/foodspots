@@ -187,7 +187,7 @@ const Map<String, String> lnAr = {
   "Stripe Account Id": "معرف حساب Stripe",
   "Go to your Stripe account settings > Account details > Copy your account ID on the right-hand side. For example, acc_GLGeLkU2JUeyDZ":
       "انتقل إلى إعدادات حساب Stripe > تفاصيل الحساب > انسخ معرف حسابك على الجانب الأيمن. على سبيل المثال، acc_GLGeLkU2JUeyDZ",
-  "Welcome to Foodie Driver": "مرحبًا بك في Foodie Driver",
+  "Welcome to Foodspots Driver": "مرحبًا بك في Foodie Driver",
   "Your Favorite Food Delivered Fast!": "توصيل طعامك المفضل بسرعة!",
   'Deliver to :': 'التسليم إلى :'
 };
