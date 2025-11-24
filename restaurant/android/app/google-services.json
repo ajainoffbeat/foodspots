@@ -1,0 +1,143 @@
+{
+  "project_info": {
+    "project_number": "697404483084",
+    "firebase_url": "https://footspots-8f8d3-default-rtdb.firebaseio.com",
+    "project_id": "footspots-8f8d3",
+    "storage_bucket": "footspots-8f8d3.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:697404483084:android:06edceb161b3df36467029",
+        "android_client_info": {
+          "package_name": "com.foodspots.customer"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "697404483084-414stqm01eiopc8lb40os6q1ls3aqmhb.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.foodspots.customer",
+            "certificate_hash": "618911574c31b00967fa9ab5fe68d613df7bc5e7"
+          }
+        },
+        {
+          "client_id": "697404483084-of721ukbo7pd1ai0bjh4dj708lhmu59q.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBLsuFQwthPzSKqKnJMCYV1eh4qRFgu1V4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "697404483084-of721ukbo7pd1ai0bjh4dj708lhmu59q.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "697404483084-1rc8t9n8utanhl7prsnm2el67e7db03a.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.foodspots.restaurant"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:697404483084:android:07c687485b0061c9467029",
+        "android_client_info": {
+          "package_name": "com.foodspots.driver"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "697404483084-ohrr5m3ofsqofap3btllosqloekonv5f.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.foodspots.driver",
+            "certificate_hash": "618911574c31b00967fa9ab5fe68d613df7bc5e7"
+          }
+        },
+        {
+          "client_id": "697404483084-of721ukbo7pd1ai0bjh4dj708lhmu59q.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBLsuFQwthPzSKqKnJMCYV1eh4qRFgu1V4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "697404483084-of721ukbo7pd1ai0bjh4dj708lhmu59q.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "697404483084-1rc8t9n8utanhl7prsnm2el67e7db03a.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.foodspots.restaurant"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:697404483084:android:224d70ff1ab910ca467029",
+        "android_client_info": {
+          "package_name": "com.foodspots.restaurant"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "697404483084-g0g56r4t5jfsjkug0si59q1st31358ma.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.foodspots.restaurant",
+            "certificate_hash": "618911574c31b00967fa9ab5fe68d613df7bc5e7"
+          }
+        },
+        {
+          "client_id": "697404483084-of721ukbo7pd1ai0bjh4dj708lhmu59q.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBLsuFQwthPzSKqKnJMCYV1eh4qRFgu1V4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "697404483084-of721ukbo7pd1ai0bjh4dj708lhmu59q.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "697404483084-1rc8t9n8utanhl7prsnm2el67e7db03a.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.foodspots.restaurant"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
