@@ -1,4 +1,4 @@
-package com.foodspots.customer
+package com.foodspots.restaurant
 
 import android.content.ContentValues
 import android.graphics.Bitmap
