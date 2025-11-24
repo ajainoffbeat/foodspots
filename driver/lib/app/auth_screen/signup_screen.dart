@@ -175,7 +175,7 @@ class SignupScreen extends StatelessWidget {
                         //     ? false
                         //     : true,
                           countryFilter: const  ["NG"],
-                            enabled: false,
+                          enabled: false,
                         onChanged: (value) {
                           controller.countryCodeEditingController.value.text =
                               value.dialCode.toString();

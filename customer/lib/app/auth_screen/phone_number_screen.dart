@@ -58,6 +58,8 @@ class PhoneNumberScreen extends StatelessWidget {
                         onChanged: (value) {
                           controller.countryCodeEditingController.value.text = value.dialCode.toString();
                         },
+                        enabled:false,
+                          countryFilter: const  ["NG"],
                         dialogTextStyle: TextStyle(color: themeChange.getThem() ? AppThemeData.grey50 : AppThemeData.grey900, fontWeight: FontWeight.w500, fontFamily: AppThemeData.medium),
                         dialogBackgroundColor: themeChange.getThem() ? AppThemeData.grey800 : AppThemeData.grey100,
                         initialSelection: controller.countryCodeEditingController.value.text,

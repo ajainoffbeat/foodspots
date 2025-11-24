@@ -121,7 +121,8 @@ class _AddDriverScreenState extends State<AddDriverScreen> {
                               FilteringTextInputFormatter.allow(RegExp('[0-9]')),
                             ],
                             prefix: CountryCodePicker(
-                              enabled: true,
+                                enabled:false,
+                          countryFilter: const  ["NG"],
                               onChanged: (value) {
                                 controller.countryCodeEditingController.value.text = value.dialCode.toString();
                               },

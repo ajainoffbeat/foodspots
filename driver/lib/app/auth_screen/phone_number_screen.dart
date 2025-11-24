@@ -101,6 +101,8 @@ class PhoneNumberScreen extends StatelessWidget {
                       FilteringTextInputFormatter.allow(RegExp('[0-9]')),
                     ],
                     prefix: CountryCodePicker(
+                      countryFilter: const  ["NG"],
+                      enabled: false,
                       onChanged: (value) {
                         controller.countryCodeEditingController.value.text =
                             value.dialCode.toString();
