@@ -51,7 +51,7 @@ class LoginScreen extends StatelessWidget {
                 ),
 
                 Text(
-                  "Sign in to access your Foodie account and manage your deliveries seamlessly.".tr,
+                  "Sign in to access your Foodspots account and manage your deliveries seamlessly.".tr,
                   style: TextStyle(
                     color: themeChange.getThem()
                         ? AppThemeData.grey50

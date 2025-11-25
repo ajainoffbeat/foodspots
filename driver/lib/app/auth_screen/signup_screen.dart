@@ -46,7 +46,7 @@ class SignupScreen extends StatelessWidget {
                           fontFamily: AppThemeData.semiBold),
                     ),
                     Text(
-                      "Sign up now to start your journey as a Foodie driver and begin earning with every delivery."
+                      "Sign up now to start your journey as a Foodspots driver and begin earning with every delivery."
                           .tr,
                       style: TextStyle(
                           color: themeChange.getThem()

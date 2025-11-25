@@ -35,7 +35,7 @@ class SignupScreen extends StatelessWidget {
                       style: TextStyle(color: themeChange.getThem() ? AppThemeData.grey50 : AppThemeData.grey900, fontSize: 22, fontFamily: AppThemeData.semiBold),
                     ),
                     Text(
-                      "Join Foodie Restaurant today and start managing your restaurant’s orders and reservations effortlessly.".tr,
+                      "Join Foodspots Restaurant today and start managing your restaurant’s orders and reservations effortlessly.".tr,
                       style: TextStyle(color: themeChange.getThem() ? AppThemeData.grey400 : AppThemeData.grey500, fontSize: 16, fontFamily: AppThemeData.regular),
                     ),
                     const SizedBox(

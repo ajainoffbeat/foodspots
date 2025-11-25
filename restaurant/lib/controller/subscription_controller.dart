@@ -134,7 +134,7 @@ class SubscriptionController extends GetxController {
         walletSettingModel.value = WalletSettingModel.fromJson(jsonDecode(Preferences.getString(Preferences.walletSettings)));
         if (stripeModel.value.isEnabled == true) {
           Stripe.publishableKey = stripeModel.value.clientpublishableKey.toString();
-          Stripe.merchantIdentifier = 'Foodie Restaurant'.tr;
+          Stripe.merchantIdentifier = 'Foodspots Restaurant'.tr;
           Stripe.instance.applySettings();
         }
         setRef();

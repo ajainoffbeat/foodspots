@@ -109,7 +109,7 @@ class WalletController extends GetxController {
         xenditModel.value = Xendit.fromJson(jsonDecode(Preferences.getString(Preferences.xenditSettings)));
 
         flutterStipe.Stripe.publishableKey = stripeModel.value.clientpublishableKey.toString();
-        flutterStipe.Stripe.merchantIdentifier = 'Foodie Driver';
+        flutterStipe.Stripe.merchantIdentifier = 'Foodspots Driver';
         flutterStipe.Stripe.instance.applySettings();
         setRef();
 

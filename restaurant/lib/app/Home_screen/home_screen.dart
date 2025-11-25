@@ -80,7 +80,7 @@ class HomeScreen extends StatelessWidget {
                             crossAxisAlignment: CrossAxisAlignment.start,
                             children: [
                               Text(
-                                "Welcome to Foodie Restaurant".tr,
+                                "Welcome to Foodspots Restaurant".tr,
                                 style: TextStyle(color: AppThemeData.grey50, fontSize: 12, fontFamily: AppThemeData.regular),
                               ),
                               Text(

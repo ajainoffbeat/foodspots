@@ -49,7 +49,7 @@ const Map<String, String> lnAr = {
   "Send OTP": "أرسل كلمة مرور لمرة واحدة",
   "Continue with Email": "استمر بالبريد الإلكتروني",
   "Create an Account 🚀": "أنشئ حسابًا 🚀",
-  "Sign up to start your food adventure with Foodie": "سجّل لبدء مغامرة طعامك مع Foodie",
+  "Sign up to start your food adventure with Foodspots": "سجّل لبدء مغامرة طعامك مع Foodspots",
   "First Name": "الاسم الأول",
   "Enter First Name": "أدخل الاسم الأول",
   "Last Name": "الاسم الأخير",
@@ -256,7 +256,7 @@ const Map<String, String> lnAr = {
   "off": "خصم",
   "Error": "خطأ",
   "Enable Location Services 📍": "تمكين خدمات الموقع 📍",
-  "To provide the best dining experience, allow Foodie to access your location.": "لتوفير أفضل تجربة طعام، اسمح لـ Foodie بالوصول إلى موقعك.",
+  "To provide the best dining experience, allow Foodspots to access your location.": "لتوفير أفضل تجربة طعام، اسمح لـ Foodspots بالوصول إلى موقعك.",
   "Use Current Location": "استخدم الموقع الحالي",
   "Set From Map": "استخدم الموقع الحالي",
   "Enter Manually location": "تعيين من الخريطة",
@@ -302,12 +302,12 @@ const Map<String, String> lnAr = {
   "Refer your friend and earn": "تصفح الصورة",
   "Each🎉": "اكتب تعليقًا",
   "Invite Friends & Businesses": "أرسل مراجعة",
-  "Invite your friends to sign up with Foodie using your code, and you’ll earn after their Success the first order! 💸🍔": "أحل صديقك واكسب",
+  "Invite your friends to sign up with Foodspots using your code, and you’ll earn after their Success the first order! 💸🍔": "أحل صديقك واكسب",
   "Share Code": "كل🎉",
-  "Hey there, thanks for choosing Foodie. Hope you love our product. If you do, share it with your friends using code": "ادعُ الأصدقاء والشركات",
-  "Timing is not added by restaurant": "ادعُ أصدقاءك للتسجيل في Foodie باستخدام الكود الخاص بك، وستربح بعد نجاحهم الطلب الأول! 💸🍔",
+  "Hey there, thanks for choosing Foodspots. Hope you love our product. If you do, share it with your friends using code": "ادعُ الأصدقاء والشركات",
+  "Timing is not added by restaurant": "ادعُ أصدقاءك للتسجيل في Foodspots باستخدام الكود الخاص بك، وستربح بعد نجاحهم الطلب الأول! 💸🍔",
   "Also applicable on table booking": "شارك الكود",
-  "Additional Offers": "مرحبًا، شكرًا لاختيارك Foodie. نأمل أن تحب منتجنا. إذا قمت بذلك، شاركه مع أصدقائك باستخدام الكود",
+  "Additional Offers": "مرحبًا، شكرًا لاختيارك Foodspots. نأمل أن تحب منتجنا. إذا قمت بذلك، شاركه مع أصدقائك باستخدام الكود",
   "Search the dish, food, meals and more...": "لا يتم إضافة التوقيت بواسطة المطعم",
   "Veg": "ينطبق أيضًا على حجز الطاولة",
   "Info": "عروض إضافية",
@@ -335,15 +335,15 @@ const Map<String, String> lnAr = {
   "Please Enter minimum amount of": "أدخل المبلغ",
   "Keep track of your balance, transactions, and payment methods all in one place.": "حدد خيارات الشحن",
   "Transaction not found": "شحن",
-  "Foodie": "يرجى إدخال الحد الأدنى من",
+  "Foodspots": "يرجى إدخال الحد الأدنى من",
   "Get Started": "تتبع رصيدك ومعاملاتك وطرق الدفع في مكان واحد.",
-  "Welcome to Foodie": "لم يتم العثور على المعاملة",
-  "Your Favorite Food Delivered Fast!": "Foodie",
+  "Welcome to Foodspots": "لم يتم العثور على المعاملة",
+  "Your Favorite Food Delivered Fast!": "Foodspots",
   "Cancel Payment": "ابدأ",
-  "Exit": "مرحبًا بك في Foodie",
+  "Exit": "مرحبًا بك في Foodspots",
   "Continue Payment": "طعامك المفضل يتم توصيله بسرعة!",
   "we Enter In": "إلغاء الدفع",
-  "Foodie Customer": "خروج",
+  "Foodspots Customer": "خروج",
   "Gift Card": "بطاقة الهدايا",
   "Dine-In": "تناول الطعام في المطعم",
   "Dine-In Booking": "حجز تناول الطعام في المطعم",

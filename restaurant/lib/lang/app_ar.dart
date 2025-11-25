@@ -92,8 +92,8 @@ const Map<String, String> lnAr = {
   "Please enter mobile number": "يرجى إدخال رقم الهاتف المحمول",
   "Continue with Email": "متابعة باستخدام البريد الإلكتروني",
   "Create an Account": "إنشاء حساب",
-  "Join Foodie Restaurant today and start managing your restaurant’s orders and reservations effortlessly.":
-      "انضم إلى مطعم Foodie اليوم وابدأ في إدارة طلبات وحجوزات مطعمك بكل سهولة.",
+  "Join Foodspots Restaurant today and start managing your restaurant’s orders and reservations effortlessly.":
+      "انضم إلى مطعم Foodspots اليوم وابدأ في إدارة طلبات وحجوزات مطعمك بكل سهولة.",
   "First Name": "الاسم الأول",
   "Enter First Name": "أدخل الاسم الأول",
   "Last Name": "الاسم الأخير",
@@ -136,7 +136,7 @@ const Map<String, String> lnAr = {
   "Products": "المنتجات",
   "Wallet": "المحفظة",
   "Profile": "الملف الشخصي",
-  "Welcome to Foodie Restaurant": "مرحبًا بك في Foodie Restaurant",
+  "Welcome to Foodspots Restaurant": "مرحبًا بك في Foodspots Restaurant",
   "New": "جديد",
   "History": "السجل",
   "Document Verification in Pending": "التحقق من المستندات معلق",
@@ -370,7 +370,7 @@ const Map<String, String> lnAr = {
   "HH:mm": "يرجى إدخال معرف حساب Stripe",
   "Start Time": "وقت البدء",
   "Remove Time": "وقت البدء",
-  "Foodie": "إزالة الوقت",
-  "Get Started": "Foodie",
+  "Foodspots": "إزالة الوقت",
+  "Get Started": "Foodspots",
   "Your Favorite Food Delivered Fast!": "ابدأ",
 };
