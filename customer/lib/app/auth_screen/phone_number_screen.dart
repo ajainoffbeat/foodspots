@@ -128,7 +128,7 @@ class PhoneNumberScreen extends StatelessWidget {
                     TextSpan(
                       children: [
                         TextSpan(
-                            text: 'Didn’t have an account?'.tr,
+                            text: 'Don’t have an account?'.tr,
                             style: TextStyle(
                               color: themeChange.getThem() ? AppThemeData.grey50 : AppThemeData.grey900,
                               fontFamily: AppThemeData.medium,
