@@ -59,14 +59,14 @@ static const FirebaseOptions android = FirebaseOptions(
 
 
   static const FirebaseOptions ios = FirebaseOptions(
-    apiKey: 'YOUR_IOS_API_KEY',
-    appId: 'YOUR_IOS_APP_ID',
-    messagingSenderId: 'YOUR_IOS_MESSAGING_SENDER_ID',
-    projectId: 'YOUR_IOS_PROJECT_ID',
-    databaseURL: 'YOUR_IOS_DATABASE_URL',
-    storageBucket: 'YOUR_IOS_STORAGE_BUCKET',
-    androidClientId: 'YOUR_ANDROID_CLIENT_ID',
-    iosClientId: 'YOUR_IOS_CLIENT_ID',
-    iosBundleId: 'YOUR_IOS_BUNDLE_ID',
+    apiKey: 'AIzaSyAFfLXu0-YxQeDNgEtEoIA6ockFVkTvwA4',
+    appId: '1:697404483084:ios:8bfec2874442cf5d467029',
+    messagingSenderId: '697404483084',
+    projectId: 'footspots-8f8d3',
+    databaseURL: 'https://footspots-8f8d3-default-rtdb.firebaseio.com',
+    storageBucket: 'footspots-8f8d3.firebasestorage.app',
+    androidClientId: '697404483084-414stqm01eiopc8lb40os6q1ls3aqmhb.apps.googleusercontent.com',
+    iosClientId: '697404483084-9gfd19s8q5ilmgos9uspaefvovofseeo.apps.googleusercontent.com',
+    iosBundleId: 'com.foodspots.customer',
   );
 }

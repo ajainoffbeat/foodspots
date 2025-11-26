@@ -2357,7 +2357,7 @@ class MapView extends StatelessWidget {
                     children: [
                       flutterMap.TileLayer(
                         urlTemplate: 'https://tile.openstreetmap.org/{z}/{x}/{y}.png',
-                        userAgentPackageName: Platform.isAndroid ? 'com.foodspots.customer' : 'com.foodies.customer.ios',
+                        userAgentPackageName: Platform.isAndroid ? 'com.foodspots.customer' : 'com.foodspots.customer',
                       ),
                       flutterMap.MarkerLayer(
                         markers: controller.osmMarker,
