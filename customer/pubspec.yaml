@@ -101,6 +101,7 @@ dependencies:
   google_maps_place_picker_mb: ^3.1.2
   flutter_svg: ^2.2.2
   speech_to_text: ^7.3.0
+  flutter_launcher_icons: ^0.14.4
 
 dependency_overrides:
   webview_flutter: ^4.9.0
@@ -173,6 +174,11 @@ flutter:
     - assets/icons/
     - assets/fonts/
     - assets/
+flutter_icons:
+  android: true
+  ios: true
+  image_path: "assets/images/ic_logo.png"  # Path to your icon
+
   # To add assets to your application, add an assets section, like this:
   # assets:
   #   - images/a_dot_burr.jpeg
