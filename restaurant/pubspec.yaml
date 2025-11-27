@@ -106,6 +106,7 @@ dependencies:
   flutter_stripe: ^12.1.1
   razorpay_flutter: ^1.4.0
   flutter_paypal: ^0.2.1
+  flutter_launcher_icons: ^0.11.0
 
 
 dependency_overrides:
@@ -180,6 +181,12 @@ flutter:
     - assets/icons/
     - assets/fonts/
     - assets/
+
+flutter_icons:
+  android: true
+  ios: true
+  image_path: "assets/images/ic_logo.png"  # Path to your icon
+
   # To add assets to your application, add an assets section, like this:
   # assets:
   #   - images/a_dot_burr.jpeg
