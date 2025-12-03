@@ -58,16 +58,16 @@ static const FirebaseOptions android = FirebaseOptions(
   storageBucket: 'footspots-8f8d3.firebasestorage.app',
 );
 
-  static const FirebaseOptions ios = FirebaseOptions(
-    apiKey: 'AIzaSyAFfLXu0-YxQeDNgEtEoIA6ockFVkTvwA4',
-    appId: '1:697404483084:ios:8b873cce1b17009b467029',
-    messagingSenderId: '697404483084',
-    projectId: 'footspots-8f8d3',
-    databaseURL: 'https://footspots-8f8d3-default-rtdb.firebaseio.com',
-    storageBucket: 'footspots-8f8d3.firebasestorage.app',
-    androidClientId: '697404483084-414stqm01eiopc8lb40os6q1ls3aqmhb.apps.googleusercontent.com',
-    iosClientId: '697404483084-1rc8t9n8utanhl7prsnm2el67e7db03a.apps.googleusercontent.com',
-    iosBundleId: 'com.foodspots.restaurant',
-  );
+static const FirebaseOptions ios = FirebaseOptions(
+  apiKey: 'AIzaSyAFfLXu0-YxQeDNgEtEoIA6ockFVkTvwA4',
+  appId: '1:697404483084:ios:8b873cce1b17009b467029',
+  messagingSenderId: '697404483084',
+  projectId: 'footspots-8f8d3',
+  databaseURL: 'https://footspots-8f8d3-default-rtdb.firebaseio.com',
+  storageBucket: 'footspots-8f8d3.firebasestorage.app',
+  iosClientId: '697404483084-1rc8t9n8utanhl7prsnm2el67e7db03a.apps.googleusercontent.com',
+  androidClientId: '697404483084-414stqm01eiopc8lb40os6q1ls3aqmhb.apps.googleusercontent.com',
+  iosBundleId: 'com.foodspots.restaurant',
+);
 
 }
