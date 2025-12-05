@@ -1,12 +1,12 @@
 import 'package:customer/app/auth_screen/login_screen.dart';
-import 'package:customer/app/cashback_screen/cashback_offers_list.dart';
+// import 'package:customer/app/cashback_screen/cashback_offers_list.dart';
 import 'package:customer/app/change%20langauge/change_language_screen.dart';
 import 'package:customer/app/chat_screens/driver_inbox_screen.dart';
 import 'package:customer/app/chat_screens/restaurant_inbox_screen.dart';
 import 'package:customer/app/dine_in_booking/dine_in_booking_screen.dart';
 import 'package:customer/app/dine_in_screeen/dine_in_screen.dart';
 import 'package:customer/app/edit_profile_screen/edit_profile_screen.dart';
-import 'package:customer/app/gift_card/gift_card_screen.dart';
+// import 'package:customer/app/gift_card/gift_card_screen.dart';
 import 'package:customer/app/help_support_screen/help_support_screen.dart';
 import 'package:customer/app/refer_friend_screen/refer_friend_screen.dart';
 import 'package:customer/app/terms_and_condition/terms_and_condition_screen.dart';
@@ -101,13 +101,13 @@ class ProfileScreen extends StatelessWidget {
                                       cardDecoration(themeChange, controller, "assets/images/ic_dinin.svg", "Dine-In", () {
                                         Get.to(const DineInScreen());
                                       }),
-                                    cardDecoration(themeChange, controller, "assets/images/ic_gift.svg", "Gift Card", () {
-                                      Get.to(const GiftCardScreen());
-                                    }),
-                                    if (Constant.isCashbackActive == true)
-                                      cardDecoration(themeChange, controller, "assets/icons/ic_cashback_Offer.svg", "Cashback Offers", () {
-                                        Get.to(const CashbackOffersListScreen());
-                                      }),
+                                    // cardDecoration(themeChange, controller, "assets/images/ic_gift.svg", "Gift Card", () {
+                                    //   Get.to(const GiftCardScreen());
+                                    // }),
+                                    // if (Constant.isCashbackActive == true)
+                                    //   cardDecoration(themeChange, controller, "assets/icons/ic_cashback_Offer.svg", "Cashback Offers", () {
+                                    //     Get.to(const CashbackOffersListScreen());
+                                    //   }),
                                   ],
                                 ),
                               ),
