@@ -25,7 +25,7 @@ void main() async {
   );
 
   await Firebase.initializeApp(
-    name: 'stagging',
+    // name: 'stagging',
     options: DefaultFirebaseOptions.currentPlatform,
   );
 
