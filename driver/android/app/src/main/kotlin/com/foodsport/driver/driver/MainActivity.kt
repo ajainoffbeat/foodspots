@@ -1,4 +1,4 @@
-package com.foodies.driver.driver
+package com.foodsport.driver
 
 import io.flutter.embedding.android.FlutterActivity
 
