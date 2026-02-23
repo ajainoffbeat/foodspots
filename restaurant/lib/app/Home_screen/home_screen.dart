@@ -2012,6 +2012,7 @@ class HomeScreen extends StatelessWidget {
                         fontSize: 16,
                       ),
                     ),
+                    compareFn: (item1, item2) => item1.id == item2.id,
                     itemAsString: (UserModel? user) => user?.id != null ? "${user?.firstName} ${user?.lastName}" : "Select Delivery Man".tr,
                     onChanged: (value) {
                       if (Constant.singleOrderReceive == true) {
@@ -2105,6 +2106,7 @@ class HomeScreen extends StatelessWidget {
   }
 
   estimatedTimeDialog(HomeController controller, themeChange, OrderModel orderModel, BuildContext context) {
+    debugPrint("isSelfDeliveryFeature: ${Constant.isSelfDeliveryFeature}, isSelfDelivery: ${controller.vendermodel.value.isSelfDelivery}, takeAway: ${orderModel.takeAway}");
     return Dialog(
       shape: RoundedRectangleBorder(borderRadius: BorderRadius.circular(20)),
       insetPadding: const EdgeInsets.all(10),
