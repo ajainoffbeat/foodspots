@@ -304,7 +304,7 @@ class WalletController extends GetxController {
 
   ///PayStack Payment Method
   payStackPayment(String totalAmount) async {
-    await PayStackURLGen.payStackURLGen(amount: (double.parse(totalAmount) * 100).toString(), currency: "ZAR", secretKey: payStackModel.value.secretKey.toString(), userModel: userModel.value)
+    await PayStackURLGen.payStackURLGen(amount: (double.parse(totalAmount) * 100).toString(), currency: "NGN", secretKey: payStackModel.value.secretKey.toString(), userModel: userModel.value)
         .then((value) async {
       if (value != null) {
         PayStackUrlModel payStackModel0 = value;
@@ -312,7 +312,7 @@ class WalletController extends GetxController {
           secretKey: payStackModel.value.secretKey.toString(),
           callBackUrl: payStackModel.value.callbackURL.toString(),
           initialURl: payStackModel0.data.authorizationUrl,
-          amount: totalAmount,
+          amount: totalAmount,     
           reference: payStackModel0.data.reference,
         ))!
             .then((value) {

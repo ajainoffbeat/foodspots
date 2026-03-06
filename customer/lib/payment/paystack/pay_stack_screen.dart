@@ -44,11 +44,11 @@ class _PayStackScreenState extends State<PayStackScreen> {
             debugPrint("--->2${navigation.url}");
             debugPrint("--->2" "${widget.callBackUrl}?trxref=${widget.reference}&reference=${widget.reference}");
             if (navigation.url == 'https://foodieweb.siswebapp.com/success?trxref=${widget.reference}&reference=${widget.reference}' ||
-                navigation.url == '${widget.callBackUrl}?trxref=${widget.reference}&reference=${widget.reference}') {
+                navigation.url == '${widget.callBackUrl}/?trxref=${widget.reference}&reference=${widget.reference}') {
               final isDone = await PayStackURLGen.verifyTransaction(secretKey: widget.secretKey, reference: widget.reference, amount: widget.amount);
               Get.back(result: isDone);
             }
-            if ((navigation.url == '${widget.callBackUrl}?trxref=${widget.reference}&reference=${widget.reference}') ||
+            if ((navigation.url == '${widget.callBackUrl}/?trxref=${widget.reference}&reference=${widget.reference}') ||
                 (navigation.url == "https://hello.pstk.xyz/callback") ||
                 (navigation.url == 'https://standard.paystack.co/close') ||
                 (navigation.url == 'https://talazo.app/login')) {
