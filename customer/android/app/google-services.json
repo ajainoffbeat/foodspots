@@ -15,11 +15,35 @@
       },
       "oauth_client": [
         {
+          "client_id": "697404483084-2qfhfrdnctql66838ia3rrri69sqnh78.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.foodspots.customer",
+            "certificate_hash": "3f7a1812d3bc1d102d59db3d3ce44521b43ca0a6"
+          }
+        },
+        {
           "client_id": "697404483084-414stqm01eiopc8lb40os6q1ls3aqmhb.apps.googleusercontent.com",
           "client_type": 1,
           "android_info": {
             "package_name": "com.foodspots.customer",
             "certificate_hash": "618911574c31b00967fa9ab5fe68d613df7bc5e7"
+          }
+        },
+        {
+          "client_id": "697404483084-a917uh1682ti5un4i2ulkr7q7utalms2.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.foodspots.customer",
+            "certificate_hash": "2c56978b231399437313737bcbfe470ad815f575"
+          }
+        },
+        {
+          "client_id": "697404483084-epfqt6k9qcesh3b2nitce5s0351mcdf6.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.foodspots.customer",
+            "certificate_hash": "406d526a4a29f251051750eed36f3d390cb2fbdb"
           }
         },
         {

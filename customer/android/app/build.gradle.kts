@@ -1,4 +1,5 @@
 import java.util.Properties
+import java.io.FileInputStream
 
 plugins {
     id("com.android.application")
@@ -16,18 +17,24 @@ android {
         applicationId = "com.foodspots.customer"
         minSdk = flutter.minSdkVersion
         targetSdk = 35
-        versionCode = 2
-        versionName = "1.1"
+        versionCode = 4
+        versionName = "1.3"
     }
 
     signingConfigs {
         create("release") {
-            storeFile = file("foodspots-customer-key.jks")
-            storePassword = "123456"
-            keyAlias = "foodspots-key"
-            keyPassword="123456"
+            val keystorePropertiesFile = rootProject.file("key.properties")
+            val keystoreProperties = Properties()
+            if (keystorePropertiesFile.exists()) {
+                keystoreProperties.load(FileInputStream(keystorePropertiesFile))
             }
+            
+            storeFile = file(keystoreProperties["storeFile"] ?: "foodspots-customer-key.jks")
+            storePassword = keystoreProperties["storePassword"] as String? ?: "123456"
+            keyAlias = keystoreProperties["keyAlias"] as String? ?: "foodspots-key"
+            keyPassword = keystoreProperties["keyPassword"] as String? ?: "123456"
         }
+    }
 
 
 

@@ -68,7 +68,7 @@ class OtpScreen extends StatelessWidget {
                               textStyle: TextStyle(color: themeChange.getThem() ? AppThemeData.grey50 : AppThemeData.grey900, fontFamily: AppThemeData.regular),
                               pinTheme: PinTheme(
                                   fieldHeight: 50,
-                                  fieldWidth: 50,
+                                  fieldWidth: (MediaQuery.of(context).size.width - 68) / 6,
                                   inactiveFillColor: themeChange.getThem() ? AppThemeData.grey900 : AppThemeData.grey50,
                                   selectedFillColor: themeChange.getThem() ? AppThemeData.grey900 : AppThemeData.grey50,
                                   activeFillColor: themeChange.getThem() ? AppThemeData.grey900 : AppThemeData.grey50,

@@ -12,7 +12,7 @@ class PhoneNumberController extends GetxController {
     ShowToastDialog.showLoader("Please wait".tr);
     await FirebaseAuth.instance
         .verifyPhoneNumber(
-            phoneNumber: countryCodeEditingController.value.text + phoneNUmberEditingController.value.text,
+            phoneNumber: '+234${phoneNUmberEditingController.value.text}',
             verificationCompleted: (PhoneAuthCredential credential) {},
             verificationFailed: (FirebaseAuthException e) {
               debugPrint("FirebaseAuthException--->${e.message}");
@@ -26,7 +26,7 @@ class PhoneNumberController extends GetxController {
             codeSent: (String verificationId, int? resendToken) {
               ShowToastDialog.closeLoader();
               Get.to(const OtpScreen(), arguments: {
-                "countryCode": countryCodeEditingController.value.text,
+                "countryCode": '+234',
                 "phoneNumber": phoneNUmberEditingController.value.text,
                 "verificationId": verificationId,
               });

@@ -34,6 +34,7 @@ class SignupController extends GetxController {
   void onInit() {
     // TODO: implement onInit
     getArgument();
+    countryCodeEditingController.value.text = "+234";
     super.onInit();
   }
 
